@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW4 - Три кота</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style-cat-1.css">
+    <link rel="stylesheet" href="style-cat-2.css">
+    <link rel="stylesheet" href="style-cat-3.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
+<header>
+    <h1>Три кота</h1>
+</header>
+<main>
+    <div class="my-container">
+        <div class="first_cat">
+            <img src="../images/cat-1.jpg" alt="cat-1">
+            <div class="cat-info">
+                <div class="name-age">Биба, 7 лет</div>
+                <div class="description">Рыжий кот как рыжий кот. Любит кусать, любит поесть, не любит шум. Часть ходит
+                    со злой мордой.
+                </div>
+                <div class="buttons">
+                    <button class="like">Like</button>
+                    <button class="pat">Pat</button>
+                </div>
+            </div>
+        </div>
+        <div class="second_cat relative w-full rounded-4xl overflow-hidden shadow-[2rem_2rem_5rem_rgba(0,0,0,0.3)] group">
+            <img src="../images/cat-2.jpg" alt="cat-2"
+                 class="w-full h-auto block transition-transform duration-300 ease-in-out group-hover:scale-105">
+            <div class="cat-info absolute bottom-0 bg-black/30 p-8 rounded-4xl m-20">
+                <div class="name-age p-12 font-bold text-[10rem] text-sky-400">Боба, 5 лет</div>
+                <div class="description p-4 text-white text-[5rem]">Спокойный серо-белый кот с приятной шёрсткой.
+                    Любит наблюдать, любит когда его
+                    гладят.
+                </div>
+                <div class="buttons flex justify-end gap-6">
+                    <button class="like bg-[darkorange] text-white text-[5rem] font-bold py-4
+                        px-8 rounded-4xl transition-colors duration-300 hover:bg-[orangered]">
+                        Like
+                    </button>
+                    <button class="pat bg-[darkorange] text-white text-[5rem] font-bold py-4
+                        px-8 rounded-4xl transition-colors duration-300 hover:bg-[orangered]">
+                        Pat
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="third_cat">
+            <img src="../images/cat-3.jpg" alt="cat-3">
+            <div class="cat-info">
+                <div class="name-age">Буба, 3 года</div>
+                <div class="description">Красивый цветной кот. Немного пугливый. Любит гулять на улице, любит кушать.
+                </div>
+                <div class="buttons">
+                    <button class="like">Like</button>
+                    <button class="pat">Pat</button>
+                </div>
+            </div>
+        </div>
 
+    </div>
+
+</main>
 </body>
 </html>
+

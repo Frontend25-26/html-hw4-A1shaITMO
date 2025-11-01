@@ -1,0 +1,62 @@
+.third_cat {
+    position: relative;
+    width: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 2rem 2rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.third_cat img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.third_cat img:hover {
+    transform: scale(1.05);
+}
+
+.third_cat .cat-info {
+    position: absolute;
+    bottom: 0;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 5rem;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.third_cat .cat-info .name-age {
+    padding: 3rem;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+.third_cat .cat-info .description {
+    color: white;
+    padding: 1rem;
+    font-size: 5rem;
+}
+
+.third_cat .cat-info .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.third_cat .cat-info .buttons button {
+    cursor: pointer;
+    background: darkorange;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    transition: background 0.3s;
+}
+
+.third_cat .cat-info .buttons button:hover {
+    background: orangered;
+}
